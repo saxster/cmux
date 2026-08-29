@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-
 jobs:
   workflow-guard-tests:
     runs-on: ubuntu-latest
