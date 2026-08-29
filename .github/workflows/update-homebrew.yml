@@ -1,6 +1,8 @@
 name: Update Homebrew Cask
 
 on:
+  push:
+    branches: [main]
   # Trigger after the release workflow completes (not on release:published,
   # which fires before assets finish uploading — causing SHA mismatch).
   workflow_run:
