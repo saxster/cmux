@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-
 jobs:
   build-ghosttykit:
     # Never run Depot jobs for fork pull requests (avoid billing on external PRs).
